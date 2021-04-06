@@ -1,4 +1,3 @@
-In order to succeed in HackerYou's part-time Fundamentals of JavaScript class, students should have a basic understanding of HTML and CSS. Successful applicants should understand at least one CSS Layout technique and should have an in-depth understanding of HTML attributes and why they are important when building websites.
 
 To demonstrate understanding of the criteria above, please recreate the image provided (techChallenge.png) as a website, as closely as possible. 
 
@@ -14,7 +13,6 @@ Instructions:
 	- Make the 'Last Name' field required.
 	- Restrict the phone number to be 10 digits.
 
-When you are finished, please rename your project folder to include your name and HY-JS-Challenge (example: janeSmith-HY-JS-Challenge). Please zip up your folder and send it back.
 
 Design details: 
 - Open Sans (400 weight and 700 weight) from Google Fonts.
