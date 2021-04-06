@@ -57,11 +57,19 @@ input {
     border-radius: 4px;
     
 }
+input:hover{ 
+    border: 2px solid black; ;
+}
 select {
     margin-bottom: 1vh;
     width: 97.7%;
     order: 1px solid black;
     border-radius: 4px;
+}
+
+select:hover {
+    border: 2px solid black;
+
 }
 
 #content {
@@ -80,6 +88,11 @@ select {
 
 .submit:hover {
     background-color: rgb(71, 70, 70);
+    border-color: #ff8a5c;
+    box-shadow: 0 0.5em 0.5em -0.4em #ff8a5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+     
 }
  
 input:focus::placeholder {
