@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>JS Challenge</title>
+</head>
+
+<body>
+    <div id="container">
+        <section id="image">
+
+            <img src="assets/books.jpg" alt="Women in library aisles">
+        </section>
+        <section id="content">
+            <H1>It's going down for real.</H1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi impedit hic totam, vel nemo officia
+                deserunt exercitationem repudiandae, illo autem, similique fuga ex quae? Laboriosam optio necessitatibus
+                pariatur magni exercitationem.</p>
+            <form id="form" action="#">
+                <h2>About you</h2>
+                <section class="name">
+
+                    <div>
+
+                        <label for="firstname">First Name</label>
+                        <input type="text" placeholder="Jane" id="firstname" name="firstname">
+                    </div>
+
+                    <div>
+
+                        <label for="lastname">Last Name</label>
+                        <input type="text" placeholder="Doe" id="lastname" name="lastname" required>
+                    </div>
+                </section>
+                <div class="form2">
+                    <label>Type of Book Choice</label>
+                    <select id="booktype" name="booktype">
+                        <option value="Hardcover">Hardcover</option>
+                        <option value="Paperback">Paperback</option>
+                        <option value="ebook">ebook</option>
+                    </select>
+
+                    <label for="Phonenumber">Phone Number</label>
+                    <input class="phoneNumber" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="13"
+                        placeholder="555-555-555" id="phonenumber" name="phone">
+
+                    <button class="submit" type="submit"> Send</button>
+                </div>
+
+            </form>
+        </section>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
